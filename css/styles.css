@@ -1,0 +1,66 @@
+:root {
+    --primari-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primari-write-color: #F5F5F5;
+    --additional-background-color: #F5F4FA;
+    --white:#ffffff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
+}
+
+/* social-links */
+.social-links .link {
+    color: var(--title-text-color);
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+    color: var(--accent-color);
+}
+
+.social-links .link.current {
+    color: var(--accent-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* основний колір фону #F5F5F5*/
+/* додатковий колір фону #F5F4FA*/
+/* колір кнопок та букв #2196F3*/
+/* основний колір тексту #757575*/
+/* додатковий колір тексту #212121*/
+/* секції */
+.section-title {
+    color: var(--title-text-color);
+}
+
+.features {
+    color: var(--accent-color);
+}
+
+/* button */
+.button.primary {
+    border: none;
+    border-radius: 4px;
+    color: var(--title-text-color);
+    background-color: var(--additional-background-color);
+}
+.button.primary:hover,
+.button.primary:focus {
+    border: none;
+    border-radius: 4px;
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+.button.sekondery {
+    border: none;
+    border-radius: 4px;
+    color: var(--white);
+    background-color: var(--accent-color);    
+}
