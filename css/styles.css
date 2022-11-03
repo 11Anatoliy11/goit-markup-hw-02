@@ -4,16 +4,63 @@
     --accent-color: #2196F3;
     --primari-write-color: #F5F5F5;
     --additional-background-color: #F5F4FA;
-    --white:#ffffff;
+    --white: #ffffff;
+    --services: #2F303A;
+    --black: #000000;
 }
 
+/* index */
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primari-text-color);
     background-color: var(--white);
+}
+
+h2,
+h3 {
+    color: var(--title-text-color);
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-family: 'Raleway', cursive;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.logo-desc {
+    color: var(--accent-color);
+}
+
+.logo-footer {
+    color: var(--white);
+    background-color: var(--services);
+}
+
+.mailto {
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--primari-text-color);
+}
+
+.mailto:hover,
+.mailto:focus {
+    color: var(--accent-color);
 }
 
 /* social-links */
 .social-links .link {
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+
     color: var(--title-text-color);
 }
 
@@ -26,41 +73,105 @@ body {
     color: var(--accent-color);
 }
 
+.services {
+    color: var(--white);
+    background-color: var(--services);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
 ul {
     list-style: none;
 }
 
-/* основний колір фону #F5F5F5*/
-/* додатковий колір фону #F5F4FA*/
-/* колір кнопок та букв #2196F3*/
-/* основний колір тексту #757575*/
-/* додатковий колір тексту #212121*/
 /* секції */
 .section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
-.features {
+.section-caption {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.section-project {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
     color: var(--primari-text-color);
+}
+
+.section-features {
+    color: var(--primari-text-color);
+}
+
+.seclion-user {
+    /*seclion*/
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.seclion-specialty {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
 }
 
 /* button */
 .button.primary {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 16px;
+    line-height: 1.63;
     border: none;
     border-radius: 4px;
     color: var(--title-text-color);
     background-color: var(--additional-background-color);
 }
+
 .button.primary:hover,
 .button.primary:focus {
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+
+.button.sekondery {
+    /*sekondery*/
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
     border: none;
     border-radius: 4px;
     color: var(--white);
     background-color: var(--accent-color);
 }
-.button.sekondery {
-    border: none;
-    border-radius: 4px;
+
+/* footer */
+.address {
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-decoration: none;
     color: var(--white);
-    background-color: var(--accent-color);    
+    background-color: var(--services);
+}
+
+.mailto-footer {
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--services);
 }
