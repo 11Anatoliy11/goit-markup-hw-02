@@ -39,11 +39,6 @@ h3 {
     color: var(--accent-color);
 }
 
-.logo-footer {
-    color: var(--white);
-    background-color: var(--services);
-}
-
 .mailto {
     line-height: 1.17;
     letter-spacing: 0.02em;
@@ -56,11 +51,9 @@ h3 {
     color: var(--accent-color);
 }
 
-/* social-links */
 .social-links .link {
     line-height: 1.17;
     letter-spacing: 0.02em;
-
     color: var(--title-text-color);
 }
 
@@ -83,70 +76,7 @@ h3 {
     text-align: center;
 }
 
-ul {
-    list-style: none;
-}
-
-/* секції */
-.section-title {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
-
-.section-caption {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--title-text-color);
-}
-
-.section-project {
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    color: var(--primari-text-color);
-}
-
-.section-features {
-    color: var(--primari-text-color);
-}
-
-.seclion-user {
-    /*seclion*/
-    font-size: 16px;
-    line-height: 1.18;
-}
-
-.seclion-specialty {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-}
-
-/* button */
-.button.primary {
-    font-family: inherit;
-    font-weight: inherit;
-    font-size: 16px;
-    line-height: 1.63;
-    border: none;
-    border-radius: 4px;
-    color: var(--title-text-color);
-    background-color: var(--additional-background-color);
-}
-
-.button.primary:hover,
-.button.primary:focus {
-    color: var(--white);
-    background-color: var(--accent-color);
-}
-
-.button.sekondery {
-    /*sekondery*/
+.button.services {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -157,11 +87,63 @@ ul {
     background-color: var(--accent-color);
 }
 
+/* section */
+
+ul {
+    list-style: none;
+}
+
+.section-features {
+    font-weight: 400;
+    color: var(--primari-text-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.section-caption {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--title-text-color);
+}
+
+.section-products,
+.section-portfolio {
+    width: 370;
+}
+
+.section-team {
+    width: 270;
+}
+
+.section-user {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+.seclion-specialty {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+}
+
 /* footer */
+
+.logo-footer {
+    color: var(--white);
+    background-color: var(--services);
+}
+
 .address {
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--white);
     background-color: var(--services);
@@ -170,8 +152,51 @@ ul {
 .mailto-footer {
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--white);
     background-color: var(--services);
+}
+
+.mailto-footer:hover,
+.mailto-footer:focus {
+    color: var(--accent-color);
+}
+
+/* portfolio */
+
+.button.filter {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: 16px;
+    line-height: 1.63;
+    border: none;
+    border-radius: 4px;
+    color: var(--title-text-color);
+    background-color: var(--additional-background-color);
+}
+
+.button.filter:hover,
+.button.filter:focus {
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+
+.portfolio {
+    text-decoration: none;
+}
+
+.section-work {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.section-project {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primari-text-color);
 }
