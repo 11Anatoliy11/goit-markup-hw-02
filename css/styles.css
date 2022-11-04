@@ -1,202 +1,202 @@
 :root {
-    --primari-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
-    --primari-write-color: #F5F5F5;
-    --additional-background-color: #F5F4FA;
-    --white: #ffffff;
-    --services: #2F303A;
-    --black: #000000;
+  --primari-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primari-write-color: #f5f5f5;
+  --additional-background-color: #f5f4fa;
+  --white: #ffffff;
+  --services: #2f303a;
+  --black: #000000;
 }
 
 /* index */
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--primari-text-color);
-    background-color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primari-text-color);
+  background-color: var(--white);
 }
 
 h2,
 h3 {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 .logo {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    font-family: 'Raleway', cursive;
-    text-decoration: none;
-    color: var(--black);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", cursive;
+  text-decoration: none;
+  color: var(--black);
 }
 
 .logo-desc {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .mailto {
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: var(--primari-text-color);
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--primari-text-color);
 }
 
 .mailto:hover,
 .mailto:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .social-links .link {
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 
 .social-links .link:hover,
 .social-links .link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .social-links .link.current {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .services {
-    color: var(--white);
-    background-color: var(--services);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-align: center;
+  color: var(--white);
+  background-color: var(--services);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
 }
 
 .button.services {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    border: none;
-    border-radius: 4px;
-    color: var(--white);
-    background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  background-color: var(--accent-color);
 }
 
 /* section */
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .section-features {
-    font-weight: 400;
-    color: var(--primari-text-color);
+  font-weight: 400;
+  color: var(--primari-text-color);
 }
 
 .section-title {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .section-caption {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
-    color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--title-text-color);
 }
 
-.section-products,
-.section-portfolio {
-    width: 370px;
+.section-products img,
+.section-portfolio img {
+  width: 370px;
 }
 
-.section-team {
-    width: 270px;
+.section-team img {
+  width: 270px;
 }
 
 .section-user {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.17;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
 }
 
 .seclion-specialty {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.17;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
 }
 
 /* footer */
 
 .logo-footer {
-    color: var(--white);
-    background-color: var(--services);
+  color: var(--white);
+  background-color: var(--services);
 }
 
 .address {
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    color: var(--white);
-    background-color: var(--services);
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--services);
 }
 
 .mailto-footer {
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    color: var(--white);
-    background-color: var(--services);
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--services);
 }
 
 .mailto-footer:hover,
 .mailto-footer:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* portfolio */
 
 .button.filter {
-    font-family: inherit;
-    font-weight: inherit;
-    font-size: 16px;
-    line-height: 1.63;
-    border: none;
-    border-radius: 4px;
-    color: var(--title-text-color);
-    background-color: var(--additional-background-color);
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 16px;
+  line-height: 1.63;
+  border: none;
+  border-radius: 4px;
+  color: var(--title-text-color);
+  background-color: var(--additional-background-color);
 }
 
 .button.filter:hover,
 .button.filter:focus {
-    color: var(--white);
-    background-color: var(--accent-color);
+  color: var(--white);
+  background-color: var(--accent-color);
 }
 
 .portfolio {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .section-work {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
 }
 
 .section-project {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-    color: var(--primari-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primari-text-color);
 }
