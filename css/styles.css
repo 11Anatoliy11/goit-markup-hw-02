@@ -156,7 +156,6 @@ ul {
 
 .logo-footer {
   color: var(--white);
-  background-color: var(--services);
 }
 
 .address {
@@ -164,7 +163,6 @@ ul {
   font-style: normal;
   text-decoration: none;
   color: var(--white);
-  background-color: var(--services);
 }
 
 .mailto-footer {
@@ -172,7 +170,6 @@ ul {
   font-style: normal;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  background-color: var(--services);
 }
 
 .mailto-footer:hover,
@@ -208,6 +205,7 @@ ul {
 .portfolio:hover,
 .portfolio:focus {
   background-color: var(--accent-color);
+}
 
 .section-work {
   font-weight: 700;
