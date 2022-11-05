@@ -29,7 +29,6 @@ h3 {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   font-family: "Raleway", cursive;
   text-decoration: none;
   color: var(--black);
@@ -54,6 +53,7 @@ h3 {
 .social-links .link {
   line-height: 1.17;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--title-text-color);
 }
 
@@ -67,13 +67,12 @@ h3 {
 }
 
 .services {
-  color: var(--white);
-  background-color: var(--services);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+  color: var(--white);
 }
 
 .button.services {
@@ -83,12 +82,16 @@ h3 {
   letter-spacing: 0.06em;
   border: none;
   border-radius: 4px;
-  cursor:pointer;
+  cursor: pointer;
   color: var(--white);
   background-color: var(--accent-color);
 }
 
 /* section */
+
+.hero {
+  background-color: var(--services);
+}
 
 ul {
   list-style: none;
@@ -96,6 +99,7 @@ ul {
 
 .section-features {
   font-weight: 400;
+  letter-spacing: 0.03em;
   color: var(--primari-text-color);
 }
 
@@ -104,6 +108,7 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -111,12 +116,18 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
 .section-products img,
 .section-portfolio img {
   width: 370px;
+}
+
+.section-team {
+  letter-spacing: 0.03em;
+  background-color: var(--additional-background-color);
 }
 
 .section-team img {
@@ -127,15 +138,21 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .seclion-specialty {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 /* footer */
+.footer {
+  letter-spacing: 0.03em;
+  background-color: var(--services);
+}
 
 .logo-footer {
   color: var(--white);
@@ -154,7 +171,7 @@ ul {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: var(--white);
+  color: rgba(255, 255, 255, 0.6);
   background-color: var(--services);
 }
 
@@ -170,7 +187,8 @@ ul {
   font-weight: inherit;
   font-size: 16px;
   line-height: 1.63;
-  cursor:pointer;
+  letter-spacing: 0.03em;
+  cursor: pointer;
   border: none;
   border-radius: 4px;
   color: var(--title-text-color);
