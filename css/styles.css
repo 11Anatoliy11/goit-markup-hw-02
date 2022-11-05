@@ -205,6 +205,10 @@ ul {
   text-decoration: none;
 }
 
+.portfolio:hover,
+.portfolio:focus {
+  background-color: var(--accent-color);
+
 .section-work {
   font-weight: 700;
   font-size: 18px;
